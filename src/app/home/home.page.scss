@@ -1,6 +1,6 @@
 #container {
   text-align: center;
-
+  padding-bottom: 10px;
   position: absolute;
   left: 0;
   right: 0;
@@ -24,4 +24,34 @@
 
 #container a {
   text-decoration: none;
+}
+
+.strong-1 {
+  font-size: 30px;
+}
+
+.button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#texto01 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px auto;
+  display: flex;
+}
+
+.logo {
+  max-width: 40%;
+  justify-content: center;
+  margin: 50px auto;
+  display: flex;
+}
+
+ion-icon {
+  color: red;
 }
